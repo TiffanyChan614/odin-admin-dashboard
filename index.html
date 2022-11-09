@@ -12,50 +12,74 @@
         <div class="header">
             <div class="top-header">
                 <div class="search-icon">
-                    <img alt="search" id="icon-image">
+                    <img src="images/magnify.svg" alt="Search" id="search-image">
                 </div>
                 <div class="search">
                     <input type="text" id="search-bar" name="search-bar">
                 </div>
                 <div class="account">
-                    <div class="notification"><a href="">Notification</a></div>
-                    <div class="account-pic"><a href="">Picture</a></div>
-                    <div class="account-name"><a href="">Tiffany Chan</a></div>
+                    <a href="" class="account-links"><img src="images/bell-outline.svg" alt="Notification"></a>
+                    <a href="" class="account-links"><img src="images/tiffany-icon.jpg" alt="Profile Picture" class="profile-pic"></a>
+                    <a href="" class="account-links">Tiffany Chan</a>
                 </div>
             </div>
             <div class="bottom-header">
-                <div class="profile">
-                    <div class="profile-pic">Profile Picture</div>
-                    <div class="hi-msg">Hi there,</div>
-                    <div class="profile-name"><h2>Tiffany Chan (@tiffany)</h2></div>
+                <div class="welcome">
+                    <img src="images/tiffany-icon.jpg" alt="Profile Picture" class="profile-pic">
+                    <p class="hi-msg">Hi there,</p>
+                   <h2 class="profile-name">Tiffany Chan (@tiffany)</h2>
                 </div>
                 <div class="action">
-                    <button class="new">New</button>
-                    <button class="upload">Upload</button>
-                    <button class="share">Share</button>
+                    <button class="action-btns">New</button>
+                    <button class="action-btns">Upload</button>
+                    <button class="action-btns">Share</button>
                 </div>
             </div>
         </div>
         <div class="sidebar">
             <div class="branding">
-                <h1>Dashboard</h1>
+                <img src="images/view-dashboard.svg" alt="Brand Icon" class="brand-icon">
+                <h1 class="brand-name">Dashboard</h1>
             </div>
-            <div class="nav1">
-                <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Profile</a></li>
-                    <li><a href="">Messages</a></li>
-                    <li><a href="">History</a></li>
-                    <li><a href="">Tasks</a></li>
-                    <li><a href="">Communities</a></li>
-                </ul>
+            <div class="main-nav">
+                <a href="">
+                    <img src="images/home.svg" alt="Home icon" class="nav-icons">
+                    <p class="nav-names">Home</p>
+                </a>
+                <a href="">
+                    <img src="images/account-circle-outline.svg" alt="Profile icon" class="nav-icons">
+                    <p class="nav-names">Profile</p>
+                </a>
+                <a href="">
+                    <img src="images/message-badge.svg" alt="Messages icon" class="nav-icons">
+                    <p class="nav-names">Messages</p>
+                </a>
+                <a href="">
+                    <img src="images/history.svg" alt="History icon" class="nav-icons">
+                    <p class="nav-names">History</p>
+                </a>
+                <a href="">
+                    <img src="images/list-box.svg" alt="Task icon" class="nav-icons">
+                    <p class="nav-names">Tasks</p>
+                </a>
+                <a href="">
+                    <img src="images/account-group.svg" alt="Communities icon" class="nav-icons">
+                    <p class="nav-names">Communities</p>
+                </a>
             </div>
-            <div class="nav2">
-                <ul>
-                    <li><a href="">Settings</a></li>
-                    <li><a href="">Support</a></li>
-                    <li><a href="">Privacy</a></li>
-                </ul>
+            <div class="sec-nav">
+                <a href="">
+                    <img src="images/cog.svg" alt="Settings" class="nav-icons">
+                    <p class="nav-names">Settings</p>
+                </a>
+                <a href="">
+                    <img src="images/account-question.svg" alt="Supports" class="nav-icons">
+                    <p class="nav-names">Supports</p>
+                </a>
+                <a href="">
+                    <img src="images/shield-lock.svg" alt="Privacy" class="nav-icons">
+                    <p class="nav-names">Privacy</p>
+                </a>
             </div>
         </div>
         <div class="main-content">
@@ -66,10 +90,10 @@
                         <h4>Super Cool Project</h4>
                         <p>Curabitur laoreet lectus sit amet justo ultrices dictum. Nulla eu ultrices dolor. Nunc scelerisque lectus eu erat accumsan mollis.</p>
                     </div>
-                    <div class="project-action">
-                        <button class="favourite">Fav</button>
-                        <button class="seen">Seen</button>
-                        <button class="share">Share</button>
+                    <div class="project-actions">
+                        <img src="images/heart-outline.svg" alt="My Favourite" class="action-imgs">
+                        <img src="images/eye-plus-outline.svg" alt="Read Later" class="action-imgs">
+                        <img src="images/share-variant-outline.svg" alt="Share" class="action-imgs">
                     </div>
                 </div>
                 <div class="project">
@@ -77,10 +101,10 @@
                         <h4>Less Cool Project</h4>
                         <p>Pellentesque eu nisl justo. Sed suscipit ornare magna, quis varius neque convallis sed. Donec tempor augue vitae quam ullamcorper venenatis.</p>
                     </div>
-                    <div class="project-action">
-                        <button class="favourite">Fav</button>
-                        <button class="seen">Seen</button>
-                        <button class="share">Share</button>
+                    <div class="project-actions">
+                        <img src="images/heart-outline.svg" alt="My Favourite" class="action-imgs">
+                        <img src="images/eye-plus-outline.svg" alt="Read Later" class="action-imgs">
+                        <img src="images/share-variant-outline.svg" alt="Share" class="action-imgs">
                     </div>
                 </div>
                 <div class="project">
@@ -88,10 +112,10 @@
                         <h4>Impossible App</h4>
                         <p>Maecenas hendrerit, quam quis sodales mattis, quam quam efficitur enim, vel commodo odio sapien quis urna. Nulla id purus convallis, pharetra orci vel, pretium justo.</p>
                     </div>
-                    <div class="project-action">
-                        <button class="favourite">Fav</button>
-                        <button class="seen">Seen</button>
-                        <button class="share">Share</button>
+                    <div class="project-actions">
+                        <img src="images/heart-outline.svg" alt="My Favourite" class="action-imgs">
+                        <img src="images/eye-plus-outline.svg" alt="Read Later" class="action-imgs">
+                        <img src="images/share-variant-outline.svg" alt="Share" class="action-imgs">
                     </div>
                 </div>
                 <div class="project">
@@ -99,10 +123,10 @@
                         <h4>Easy Peasy App</h4>
                         <p>Donec id est eu nibh rutrum congue vitae tincidunt purus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec convallis nunc a neque mollis iaculis.</p>
                     </div>
-                    <div class="project-action">
-                        <button class="favourite">Fav</button>
-                        <button class="seen">Seen</button>
-                        <button class="share">Share</button>
+                    <div class="project-actions">
+                        <img src="images/heart-outline.svg" alt="My Favourite" class="action-imgs">
+                        <img src="images/eye-plus-outline.svg" alt="Read Later" class="action-imgs">
+                        <img src="images/share-variant-outline.svg" alt="Share" class="action-imgs">
                     </div>
                 </div>
                 <div class="project">
@@ -110,10 +134,10 @@
                         <h4>Ad Blocker</h4>
                         <p>Mauris vitae maximus ipsum. Curabitur sed finibus elit. In in finibus nunc. Mauris vitae massa eget lorem feugiat dictum eget non nunc.</p>
                     </div>
-                    <div class="project-action">
-                        <button class="favourite">Fav</button>
-                        <button class="seen">Seen</button>
-                        <button class="share">Share</button>
+                    <div class="project-actions">
+                        <img src="images/heart-outline.svg" alt="My Favourite" class="action-imgs">
+                        <img src="images/eye-plus-outline.svg" alt="Read Later" class="action-imgs">
+                        <img src="images/share-variant-outline.svg" alt="Share" class="action-imgs">
                     </div>
                 </div>
                 <div class="project">
@@ -121,10 +145,10 @@
                         <h4>Money Maker</h4>
                         <p>Vivamus nec ipsum eget ex suscipit lacinia id eu quam. Nullam pellentesque diam ac pretium lacinia. Pellentesque cursus suscipit feugiat.</p>
                     </div>
-                    <div class="project-action">
-                        <button class="favourite">Fav</button>
-                        <button class="seen">Seen</button>
-                        <button class="share">Share</button>
+                    <div class="project-actions">
+                        <img src="images/heart-outline.svg" alt="My Favourite" class="action-imgs">
+                        <img src="images/eye-plus-outline.svg" alt="Read Later" class="action-imgs">
+                        <img src="images/share-variant-outline.svg" alt="Share" class="action-imgs">
                     </div>
                 </div>
             </div>
@@ -148,29 +172,29 @@
             <div class="trendings title"><h3>Trending</h3></div>
             <div class="trendings content">
                 <div class="trending">
-                    <div class="trending-icon">Icon</div>
+                    <img src="images/tegan-icon.jpg" alt="Tegan's Icon" class="trending-icons">
                     <div class="trending-name">
                         <p>@tegan</p>
                         <p>World Peace Builder</p>
                     </div>
                 </div>
-                    <div class="trending">
-                    <div class="trending-icon">Icon</div>
-                    <div class="trending-name">
+                <div class="trending">
+                    <img src="images/morgan-icon.jpg" alt="Morgan's Icon" class="trending-icons">
+                    <div class="trending-names">
                         <p>@morgan</p>
                         <p>Super Cool Project</p>
                     </div>
                 </div>
                 <div class="trending">
-                    <div class="trending-icon">Icon</div>
-                    <div class="trending-name">
+                    <img src="images/tiffany-icon.jpg" alt="Tiffany's Icon" class="trending-icons">
+                    <div class="trending-names">
                         <p>@tiffany</p>
                         <p>Amazing dashboard</p>
                     </div>
                 </div>
                 <div class="trending">
-                    <div class="trending-icon">Icon</div>
-                    <div class="trending-name">
+                    <img src="images/alex-icon.jpg" alt="Alex's Icon" class="trending-icons">
+                    <div class="trending-names">
                         <p>@alex</p>
                         <p>No Traffic Maker</p>
                     </div>
