@@ -54,8 +54,8 @@ body {
     grid-template-rows: minmax(3rem, 2.5vh) minmax(4rem, auto);
     align-items: center;
     background-color: var(--white);
-    padding: 0.5rem 1vw;
     z-index: 2;
+    padding: 0.3rem 2rem;
 }
 
 .main-content {
@@ -125,10 +125,6 @@ body {
     display: grid;
     grid-template-columns: minmax(25rem, 2fr) 1fr;
     align-items: center;
-}
-
-.header{
-    padding: 0.3rem 2rem;
 }
 
 .search-bar{
@@ -234,7 +230,9 @@ body {
     max-height: 50rem;
 }
 
-.project:hover, .announcements.content:hover, .trendings.content:hover {
+.project:hover,
+.announcements.content:hover,
+.trendings.content:hover {
     transition: 0.3s;
     box-shadow: 0 0 0.5rem var(--focus-shadow);
     transform: scale(1.02);
