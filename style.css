@@ -153,6 +153,7 @@ body {
     grid-template-columns: clamp(2.5rem, calc(2.5rem + 3vw), 10rem) auto;
     grid-template-rows: 1fr 2fr;
     align-items: center;
+    column-gap: 0.5rem;
 }
 
 .action {
@@ -382,8 +383,8 @@ body {
 
 .welcome .profile-pic {
     grid-row: 1 / 3;
-    width: calc(2.5rem + 1.5vw);
-    height: calc(2.5rem + 1.5vw);
+    width: calc(3rem + 0.8vw);
+    height: calc(3rem + 0.8vw);
 }
 
 .trending-icons {
