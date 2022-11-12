@@ -402,6 +402,16 @@ h4 {
     font-size: calc(0.8rem + 0.2vw);
 }
 
-.trending-users > h4{
+.trending-users > h4 {
     font-size: calc(1rem + 0.2vw);
+}
+
+p.account-actions {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.account-actions:hover {
+    transition: 0.2s;
+    transform: scale(1.1);
 }
