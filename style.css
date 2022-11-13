@@ -61,7 +61,6 @@ body {
 .main-content {
     grid-column: 2;
     grid-row: 2;
-    /* border: 1px solid green; */
     display: grid;
     grid-template-columns: auto clamp(15rem, 20vw, 30rem);
     grid-template-rows: calc(1.5rem + 3.5vh) 1fr calc(0.6rem + 4vh) 1fr;
