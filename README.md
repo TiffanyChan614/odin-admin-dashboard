@@ -44,3 +44,4 @@ You can also preview the page [here](https://tiffanychan614.github.io/odin-admin
 
 ### Project Ideas
 - IlyaEru: https://ilyaeru.github.io/TOP-Project-Admin-Dashboard/
+- The Odin Project: https://www.theodinproject.com/
